@@ -1,0 +1,74 @@
+{% if post.header.teaser %}
+  {% capture teaser %}{{ post.header.teaser }}{% endcapture %}
+{% else %}
+  {% assign teaser = site.teaser %}
+{% endif %}
+
+{% if post.id %}
+  {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
+{% else %}
+  {% assign title = post.title %}
+{% endif %}
+
+<div class="{{ include.type | default: 'list' }}__item">
+  <!-- <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    {% if include.type == "grid" and teaser %}
+      <div class="archive__item-teaser">
+        <img src="{{ teaser | relative_url }}" alt="">
+      </div>
+    {% endif %}
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      {% if post.link %}
+        <a href="{{ post.link }}">{{ title }}</a> <a href="{{ post.url | relative_url }}" rel="permalink"><i class="fas fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
+      {% else %}
+        <a href="{{ post.url | relative_url }}" rel="permalink">{{ title }}</a>
+      {% endif %}
+    </h2>
+    {% include page__meta.html type=include.type %}
+    {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify | strip_html | truncate: 160 }}</p>{% endif %}
+  </article> -->
+  <!-- <article class="archive__item" style="display: flex; align-items: center; gap: 1rem;">
+    
+    <div class="archive__item-image" style="flex: 3;">
+      {% if post.image %}
+        <img src="{{ post.image | relative_url }}" alt="{{ post.title }}" style="width: 100%; height: auto;">
+      {% endif %}
+    </div>
+  
+   
+    <div class="archive__item-details" style="flex: 2; text-align: center;">
+      <a href="{{ post.ads }}" class="ads-button" target="_blank" rel="noopener noreferrer" style="display: inline-block; padding: 0.5rem 1rem; background-color: #007bff; color: #fff; text-decoration: none; border-radius: 0.25rem; font-size: 1rem;">
+        ADS
+      </a>
+    </div>
+    <p>
+
+    </p>
+    <h3 class="archive__item-title">{{ post.title }}</h3>
+  </article> -->
+  <article class="archive__item button" style="display: flex; align-items: center; gap: 1rem; flex-wrap: wrap; background-color: #FAFAFA; outline-color: #b69f64; text-decoration: none; outline: solid; border-radius: 12px; padding: 20px">
+    <!-- Image Section -->
+    <div class="archive__item-image" style="flex: 3; min-width: 200px;">
+      {% if post.image %}
+        <img src="{{ post.image | relative_url }}" alt="{{ post.title }}" style="width: 100%; height: auto; border-radius: 12px;">
+      {% endif %}
+    </div>
+  
+    <!-- Details Section -->
+    <div class="archive__item-details" style="flex: 2; min-width: 150px; text-align: center;">
+      <!-- Post Title -->
+      <h3 class="archive__item-title" style="margin-bottom: 1rem; font-size: 1.25rem;">{{ post.title }}</h3>
+      
+      <!-- ADS Button -->
+      {% if post.ads %}
+        <a href="{{ post.ads }}" class="ads-button" target="_blank" rel="noopener noreferrer" style="display: inline-block; padding: 0.5rem 1rem; background-color: #FAFAFA; color: #b69f64; outline-color: #b69f64; outline:solid; text-decoration: none; border-radius: 0.25rem; font-size: 1rem;">
+          ADS
+        </a>
+      {% else %}
+        <span class="ads-button" style="background-color: #FAFAFA; color: #b69f64; outline-color: #b69f64; outline:solid; border-radius: 0.25rem; cursor: not-allowed;">No ADS Link</span>
+      {% endif %}
+    </div>
+  </article>
+  
+  
+</div>

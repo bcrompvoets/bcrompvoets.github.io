@@ -2,6 +2,8 @@
 title: "*OSSOS XXV: Large Populations and Scattering-Sticking in the Distant Transneptunian Resonances"
 date:   2022-05-01 16:54:59 -0800
 categories: OSSOS
+image: ../../assets/images/ossosxxv_banner.jpeg
+ads: https://ui.adsabs.harvard.edu/abs/2022PSJ.....3..113C/abstract
 ---
 There have been 77 TNOs discovered to be librating in the distant transneptunian resonances (beyond the 2:1 resonance, at semimajor axes greater than 47.7~AU) in four well-characterized surveys: the Outer Solar System Origins Survey (OSSOS) and three similar prior surveys. Here we use the OSSOS Survey Simulator to measure their intrinsic orbital distributions using an empirical parameterized model. Because many of the resonances had only one or very few detections, j:k resonant objects were grouped by k in order to have a better basis for comparison between models and reality. We also use the Survey Simulator to constrain their absolute populations, finding that they are much larger than predicted by any published Neptune migration model to date; we also find population ratios that are inconsistent with published models, presenting a challenge for future Kuiper Belt emplacement models. The estimated population ratios between these resonances are largely consistent with scattering-sticking predictions, though further discoveries of resonant TNOs with high-precision orbits will be needed to determine whether scattering-sticking can explain the entire distant resonant population or not.
 

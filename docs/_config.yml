@@ -56,9 +56,9 @@ plugins:
 
 # Collections to get publication and outreach posts
 collections:
-  publication_posts:
+  publication-posts:
     output: true
     permalink: /publications/:path
-  outreach_posts:
+  outreach-posts:
     output: true
-    permalink: /outreach_events/:path
+    permalink: /outreach-posts/:path

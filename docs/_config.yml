@@ -53,3 +53,9 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+# Collections to get publication and outreach posts
+collections:
+  publication_posts:
+    output: true
+    permalink: /publications/:path

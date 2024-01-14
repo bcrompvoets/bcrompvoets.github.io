@@ -1,8 +1,7 @@
 ---
-layout: page
+layout: outreach
 title: Outreach
 permalink: /outreach/
 ---
 
-Soon I shall know how to make outreach posts appear here!
-
+First attempt to make outreach posts appear here!

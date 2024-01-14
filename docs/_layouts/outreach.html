@@ -1,24 +1,27 @@
 ---
 layout: default
 ---
+</article>
+<div class="outreach">
+  {%- if page.title -%}
+    <h1 class="page-heading">{{ page.title }}</h1>
+  {%- endif -%}
 
-<h1>Outreach Posts</h1>
-
-
+  {{ content }}
 <ul>
   {% for post in site.posts %}
-    <li>
-      {{ post.title }}
-      <ul>
-        {% for category in post.categories %}
-          <li>Category: {{ category }}</li>
-        {% endfor %}
-      </ul>
-      <ul>
-        {% for collection in post.collection %}
-          <li>Collection: {{ collection }}</li>
-        {% endfor %}
-      </ul>
-    </li>
-  {% endfor %}
+    {% if post.category == 'outreach-posts' %}
+     <li>
+        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+        <span class="post-meta">{{ post.date | date: date_format }}</span>
+        <h3>
+          <a class="post-link" href="{{ post.url | relative_url }}">
+            {{ post.title | escape }}
+          </a>
+        </h3>
+          {{ post.excerpt }}
+     </li>
+{% endif %}  
+{%- endfor -%}
 </ul>
+</div>

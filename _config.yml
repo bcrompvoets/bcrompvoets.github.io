@@ -13,20 +13,21 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: MM
+title: B.L. Crompvoets 
 email:
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-twitter_username: username
+   Breanna Crompvoets is a PhD student at the University of Victoria.
+   Her research focuses on the identification of forming stars from near and mid-infrared
+   images taken by the James Webb Space Telescope.
 github_username: username
-minimal_mistakes_skin: default
+orcID: 0000-0001-8900-5550
+linkedin_username: breanna-crompvoets
+minimal_mistakes_skin: dirt #default
 search: true
 
 # Build settings
 markdown: kramdown
-remote_theme: mmistakes/minimal-mistakes
+theme: minimal-mistakes-jekyll
 # Outputting
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
@@ -58,19 +59,18 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "First Lastname"
+  name   : "B.L. Crompvoets"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  bio    : "Breanna Crompvoets is a PhD student at the University of Victoria.
+   Her research focuses on the identification of forming stars from near and mid-infrared
+   images taken by the James Webb Space Telescope."
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
+      url: "https://github.com/{{ site.github_username }}"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/"

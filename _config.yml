@@ -62,10 +62,11 @@ plugins:
 author:
   name   : "Breanna Crompvoets"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "Breanna Crompvoets is a PhD student at the University of Victoria.
-   Her research focuses on the identification of forming stars from near and mid-infrared
-   images taken by the James Webb Space Telescope."
+  bio    : "PhD student at the University of Victoria."
   links:
+    - label: "University of Victoria, BC, CA"
+      icon: "fa fa-fw fa-map-marker"
+      url: "https://maps.app.goo.gl/k7Tab6DadxLuYsVt8"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/bcrompvoets"

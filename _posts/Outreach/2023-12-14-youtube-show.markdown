@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Talking AI in Space with the H.R. MacMillan Space Centre"
 date:   2023-12-14 16:54:59 -0800
 categories: Outreach

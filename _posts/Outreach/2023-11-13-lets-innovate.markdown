@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Let's Innovate!: Judging Innovation Fairs"
 date:   2023-11-13 16:54:59 -0800
 categories: Outreach

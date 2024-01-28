@@ -3,9 +3,9 @@ title: About Me
 permalink: /about/
 ---
 
-Hello! I am happy to see you've stumbled upon my page! I'm a PhD student studying under <a href="https://www.jamesdifrancesco.com">Dr. James Di Francesco</a>. Specifically, my research focuses on the utilization of different machine learning models to identify Young Stellar Objects in James Webb Space Telescope data, and from there to learn more about the impact of environoments on star formation.
+Hello! I am happy to see you've stumbled upon my page! I'm a PhD student studying under <a href="https://www.jamesdifrancesco.com">Dr. James Di Francesco</a>. Specifically, my research focuses on the utilization of different machine learning models to identify Young Stellar Objects in James Webb Space Telescope data, and from there to learn more about the impact of environoments on star formation. We analyze not only column density, but how the method of star formation (triggered vs quiescent) impacts the number and type of YSOs formed.
 
-If you were looking for an English description: I use AI to find patterns in pictures taken by our latest space telescope, with the aim of identifying stars that are just in the midst of being born! From looking at where these stars are and what's all going on around them (for instance how many other newborn stars are around and how much dust is present), we can learn what limits the formation of stars on a fundamental level!
+My Masters research focused on a case study of the Cosmic Cliffs, the region released as part of the Early Release Observations of JWST in July of 2022 (see <a href="{{ site.baseurl }}/categories/#publications">Publications and Appearances</a> for more information on that particular work (COMING SOON). My PhD aims to apply these methods to several different Galactic star-forming regions imaged by JWST, and to delve further into revealed trends. 
 
-I am very excited to share what I have learned, and you can find a catalogue of my recent outreach talks under the <a href="{{ site.baseurl }}/outreach/">Outreach</a> tab. 
+I am also very excited to share what I have learned on a range of topics, and you can find a catalogue of my recent outreach talks under the <a href="{{ site.baseurl }}/outreach/">Outreach</a> tab. 
 

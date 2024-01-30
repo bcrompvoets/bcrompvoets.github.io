@@ -61,7 +61,7 @@ plugins:
 
 author:
   name   : "Breanna Crompvoets"
-  avatar : "/assets/images/bio-photo.jpg"
+  avatar : "/assets/images/bio-photo_600.jpg"
   bio    : "PhD student at the University of Victoria."
   links:
     - label: "University of Victoria, BC, CA"

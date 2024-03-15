@@ -7,5 +7,4 @@ Hello! I am happy to see you've stumbled upon my page! I'm a PhD student studyin
 
 My Masters research focused on a case study of the Cosmic Cliffs, the region released as part of the Early Release Observations of JWST in July of 2022 (see <a href="{{ site.baseurl }}/categories/#publications">Publications and Appearances</a> for more information on that particular work (COMING SOON)). My PhD aims to apply these methods to several different Galactic star-forming regions imaged by JWST, and to delve further into revealed trends. 
 
-I am also very excited to share what I have learned on a range of topics, and you can find a catalogue of my recent outreach talks under the <a href="{{ site.baseurl }}/outreach/">Outreach</a> tab. 
 

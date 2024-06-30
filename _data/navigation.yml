@@ -4,8 +4,10 @@ main:
   #- title: "Posts"
   #  url: /posts/
   #- title: "Categories"
-  - title: "Publications and Appearances"
-    url: /categories/
+  #- title: "Publications and Appearances"
+   # url: /categories/
+  - title: "Publications"
+    url: /publications/
   #- title: "Tags"
   #  url: /tags/
   - title: Outreach

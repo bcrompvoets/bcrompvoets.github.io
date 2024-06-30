@@ -1,7 +1,7 @@
 ---
 title:  "Talking AI in Space with the H.R. MacMillan Space Centre"
 date:   2023-12-14 16:54:59 -0800
-categories: Events 
+categories: YouTube
 ---
 
 Hi everyone! I'm excited to announce that I'll be guesting on the "Ask an Astronomer" YouTube show put on by the H.R. MacMillan Space Centre this evening! Please join myself and wonderful hosts Michael Unger and astronomer Marley Leacock as we chat about artificial intelligence, and how I use it in my research into star formation.

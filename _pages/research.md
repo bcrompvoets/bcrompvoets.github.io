@@ -15,11 +15,11 @@ Body here describing star formation
 
 <h1> The efficiency issue </h1>
 
-<figure>
+<!-- <figure>
   <img src="../assets/images/serpens-main-colour-spitzer.jpg" alt="Spitzer image of Serpens Main" style="float:left; margin-right:10px;">
   <img src="../assets/images/serpens-main-eff.jpg" alt="Free-fall efficiency of Serpens Main with gas surface density" style="float:left;">
   <figcaption>Free-fall efficiency determined following the work of Pokhrel et al. 2021</figcaption>
-</figure>
+</figure> -->
 
 Body here describing this issue
 

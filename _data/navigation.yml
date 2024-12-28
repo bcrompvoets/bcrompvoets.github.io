@@ -10,8 +10,8 @@ main:
     url: /publications/
   #- title: "Tags"
   #  url: /tags/
-  # - title: "Research"
-  #   url: /research/
+  - title: "Research"
+    url: /research/
   - title: Outreach
     url: /outreach/
   - title: "CV"

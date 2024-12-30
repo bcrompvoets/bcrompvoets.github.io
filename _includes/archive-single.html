@@ -46,7 +46,7 @@
     </p>
     <h3 class="archive__item-title">{{ post.title }}</h3>
   </article> -->
-  <article class="archive__item button" style="display: flex; align-items: center; gap: 1rem; flex-wrap: wrap; background-color: #FAFAFA; outline-color: #b69f64; text-decoration: none; outline: solid; border-radius: 12px; padding: 20px">
+  <article class="archive__item button" style="display: flex; align-items: center; gap: 1rem; flex-wrap: wrap; background-color: #FAFAFA; outline-color: #b69f64; text-decoration: none; outline: solid; border-radius: 12px; margin: 20px; padding: 20px">
     <!-- Image Section -->
     <div class="archive__item-image" style="flex: 3; min-width: 200px;">
       {% if post.image %}
@@ -65,8 +65,18 @@
           ADS
         </a>
       {% else %}
-        <span class="ads-button" style="background-color: #FAFAFA; color: #b69f64; outline-color: #b69f64; outline:solid; border-radius: 0.25rem; cursor: not-allowed;">No ADS Link</span>
+        <!-- <span class="ads-button" style="background-color: #FAFAFA; color: #b69f64; outline-color: #b69f64; outline:solid; border-radius: 0.25rem; cursor: not-allowed;">No ADS Link</span> -->
       {% endif %}
+      {% if post.youtube %}
+        <a href="{{ post.youtube }}" class="button" target="_blank" rel="noopener noreferrer" style="display: inline-block; padding: 0.5rem 1rem; background-color: #FAFAFA; color: #b69f64; outline-color: #b69f64; outline:solid; text-decoration: none; border-radius: 0.25rem; font-size: 1rem;">
+          YouTube
+        </a>
+      {% endif %}
+      {% if post.podcast %}
+        <a href="{{ post.podcast }}" class="button" target="_blank" rel="noopener noreferrer" style="display: inline-block; padding: 0.5rem 1rem; background-color: #FAFAFA; color: #b69f64; outline-color: #b69f64; outline:solid; text-decoration: none; border-radius: 0.25rem; font-size: 1rem;">
+          Podcast
+        </a>
+      {% endif %}  
     </div>
   </article>
   

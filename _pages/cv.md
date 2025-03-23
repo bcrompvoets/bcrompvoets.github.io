@@ -22,7 +22,7 @@ layout: cv
             <li> 1 colloquium </li>
             <li> 2 first author papers </li>
             <li> 6 conference talks/posters </li>
-            <li> 14 outreach talks </li>
+            <li> 15 outreach talks </li>
             <li> 3 panels </li>
             <!-- <li> 7 mentees </li> -->
         </ul>

@@ -16,14 +16,14 @@
 title: B.L. Crompvoets 
 email: bcrompvoets [AT] uvic.ca
 description: >- # this means to ignore newlines until "baseurl:"
-   Breanna Crompvoets is a PhD student at the University of Victoria.
+   Breanna Crompvoets is a PhD candidate at the University of Victoria.
    Her research focuses on the identification of forming stars from near and mid-infrared
    images taken by the James Webb Space Telescope.
 github_username: bcrompvoets 
 orcID: 0000-0001-8900-5550
 linkedin_username: breanna-crompvoets
 
-minimal_mistakes_skin: dirt #default
+minimal_mistakes_skin: dirt #default contrast
 search: true
 
 # Build settings
@@ -64,8 +64,8 @@ plugins:
 
 author:
   name   : "Breanna Crompvoets"
-  avatar : "/assets/images/bio-photo_600.jpg"
-  bio    : "PhD student at the University of Victoria."
+  avatar : "/assets/images/astro_bio_pic.jpg"
+  bio    : "PhD candidate at the University of Victoria."
   links:
     - label: "University of Victoria, BC, CA"
       icon: "fa fa-fw fa-map-marker"

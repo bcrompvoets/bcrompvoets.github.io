@@ -27,7 +27,7 @@ My work focuses on connecting the amount of gas within a given region to the num
   <figcaption>Free-fall efficiency for Serpens Main determined following the work of Pokhrel et al. 2021; Spitzer data from C2D survey, Herschel data from the Herschel Gould Belt Survey. Column densities are indicated with contours, RGB image is built from IRAC 1, 2, and 4 bands. Number of protostars pulled from the C2D catalog of Serpens Main, following cuts in spectral index. Stochastic nature of the scatter plot is due to the few (38) YSOs within this section of the field.</figcaption>
 </figure>
 
-In a previous work by Pokhrel et al. (2021), it was found that the star formation efficiency (how many stars are made from the available gas) is fairly steady at about 2.6%, up to a gas surface density of about 1<span>&#215;</span>10<sup>22</sup> particles cm<sup>-2</sup>. After this density, the number of protostars within the gas surface density contours drops off precipitously, causing a similar drop in star forming efficiency. The cause? A couple possibilities:
+In a previous work by Pokhrel et al. (2021), it was found that the star formation efficiency (how many stars are made from the available gas) is fairly steady at about 2.6%, up to a gas column density of about 1<span>&#215;</span>10<sup>22</sup> particles cm<sup>-2</sup>. After this density, the number of protostars within the gas surface density contours drops off precipitously, causing a similar drop in star forming efficiency. The cause? A couple possibilities:
 <ol>
   <li>Observational Bias</li>
   <li>Feedback Effects</li>
